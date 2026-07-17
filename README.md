@@ -1,29 +1,61 @@
-hello!
+# KoroneStrap
 
+A lightweight bootstrapper/wrapper for **Korone Studio**, inspired by Bloxstrap.
 
+---
 
-this is my something like bloxtrap but for korone
+## 📌 Requirements
 
+Before you begin, make sure you have the following installed:
 
+*   **[Python 3.x](https://www.python.org/downloads/)**
+    > ⚠️ **Important:** During installation, ensure you check the box **"Add Python to PATH"**.
+*   **Required Python Packages:** `colorama` and `pyinstaller`.
 
+### Installing Dependencies
 
-how to build:
+Open your terminal or command prompt and run:
 
-download the source code
+```bash
+pip install colorama pyinstaller pyside
+```
 
-put all of the files from the source code into the C:\Users\(your user here)
+---
 
-install python (and add it to path)
+## 🛠️ Building from Source
 
+Follow these steps to compile the project into a standalone executable:
 
-then you need to download colorama,pyinstaller (pip install)
+### 1. Prepare the Environment
+1. Download and extract the source code.
+2. Place the project files into a folder of your choice (for example: `C:\Users\<Your_Username>\KoroneStrap`).
 
+### 2. Compile the Executable
+1. Open Command Prompt (`cmd`) and navigate to your project folder:
+   ```cmd
+   cd C:\Users\<Your_Username>\KoroneStrap
+   ```
+2. Run the following PyInstaller command to build the `.exe`:
+   ```bash
+   pyinstaller --noconfirm --onefile --windowed --add-data "486334643-c0477fe6-8ed3-48dc-9404-ff9463d542ca.jpg;." --add-data "icon.ico;." --icon "icon.ico" --name "KoroneStrap" "netstrap.py"
+   ```
 
-after that type "pyinstaller --noconfirm --onefile --windowed --add-data "486334643-c0477fe6-8ed3-48dc-9404-ff9463d542ca.jpg;." --add-data "icon.ico;." --icon "icon.ico" --name "KoroneStrap" "netstrap.py" " in cmd
+### 3. Locate the Output
+Once the build process is complete, you can find your compiled `KoroneStrap.exe` in the newly created `dist` directory:
+```text
+C:\Users\<Your_Username>\KoroneStrap\dist\
+```
 
+---
 
-after that a .exe file will apear in Users\(your user here)\dist
+## ⚙️ Customization
 
+Feel free to fork this repository, modify the code, and adapt it to your needs!
 
+---
 
-you can modify it if you want, you can support me by buying this shirt! https://www.pekora.zip/catalog/9369/E
+## 💖 Support the Project
+
+If you find this tool useful and want to support its development, you can purchase this shirt:
+
+👉 **[Support Link](https://www.pekora.zip/catalog/9369/E)**
