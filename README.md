@@ -1,6 +1,6 @@
-# KoroneStrap
+# KoroneStrap X
 
-A lightweight bootstrapper/wrapper for **Korone Studio**, inspired by Bloxstrap.
+A lightweight bootstrapper/wrapper for **Korone**, inspired by Bloxstrap.
 
 ---
 
